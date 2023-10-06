@@ -1,6 +1,40 @@
 {
-    "rewrites" : [{
-        "source": "/(.*)",
-         "destination": "/"
-    }]
+    "routes": [
+        {
+            "src": "/",
+            "dest": "< Home/>",
+            "errorElement": "<Errorpage/>"
+          },
+          {
+            "src": "/Booking",
+            "dest": "< Booking/>",
+            "errorElement": "<Errorpage/>"
+          },
+          {
+            "src": "/Destination",
+            "dest": "< Destination/>",
+            "errorElement": "<Errorpage/>"
+          },
+          {
+            "src": "/About",
+            "dest": "< About/>",
+            "errorElement": "<Errorpage/>"
+          },
+          {
+            "src": "/Login",
+            "dest": "< Login/>",
+            "errorElement": "<Errorpage/>"
+          },
+          {
+            "src": "/Signup",
+            "dest": "< Signup/>",
+            "errorElement": "<Errorpage/>"
+          },
+        
+          {
+            "src": "/test",
+            "dest": "< Test/>",
+            "errorElement": "<Errorpage/>"
+          }
+    ]
 }
