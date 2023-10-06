@@ -2,38 +2,32 @@
     "routes": [
         {
             "src": "/",
-            "dest": "< Home/>"
+            "dest": "/"
          
           },
           {
             "src": "/Booking",
-            "dest": "< Booking/>"
+            "dest": "/Booking"
          
           },
           {
             "src": "/Destination",
-            "dest": "< Destination/>"
+            "dest": "/Destination"
          
           },
           {
             "src": "/About",
-            "dest": "< About/>"
+            "dest": "/About"
          
           },
           {
             "src": "/Login",
-            "dest": "< Login/>"
+            "dest": "/Login"
          
           },
           {
             "src": "/Signup",
-            "dest": "< Signup/>"
-         
-          },
-        
-          {
-            "src": "/test",
-            "dest": "< Test/>"
+            "dest": "/Signup"
          
           }
     ]
