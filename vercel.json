@@ -2,39 +2,39 @@
     "routes": [
         {
             "src": "/",
-            "dest": "< Home/>",
-            "errorElement": "<Errorpage/>"
+            "dest": "< Home/>"
+         
           },
           {
             "src": "/Booking",
-            "dest": "< Booking/>",
-            "errorElement": "<Errorpage/>"
+            "dest": "< Booking/>"
+         
           },
           {
             "src": "/Destination",
-            "dest": "< Destination/>",
-            "errorElement": "<Errorpage/>"
+            "dest": "< Destination/>"
+         
           },
           {
             "src": "/About",
-            "dest": "< About/>",
-            "errorElement": "<Errorpage/>"
+            "dest": "< About/>"
+         
           },
           {
             "src": "/Login",
-            "dest": "< Login/>",
-            "errorElement": "<Errorpage/>"
+            "dest": "< Login/>"
+         
           },
           {
             "src": "/Signup",
-            "dest": "< Signup/>",
-            "errorElement": "<Errorpage/>"
+            "dest": "< Signup/>"
+         
           },
         
           {
             "src": "/test",
-            "dest": "< Test/>",
-            "errorElement": "<Errorpage/>"
+            "dest": "< Test/>"
+         
           }
     ]
 }
