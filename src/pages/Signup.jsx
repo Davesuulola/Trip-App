@@ -11,7 +11,7 @@ const Signup=()=>{
 
 <div className="md:w-4/5 w-11/12 py-12 mx-auto">
 
-<h1 className="text-3xl md:text-4xl font-extralight">Ready to take that Trip? only takes a minute!</h1>
+<h1 className="sm:text-3xl text-2xl sm:ml-0 ml-1 md:text-4xl font-extralight">Ready to take that Trip? only takes a minute!</h1>
 
 <div className=" my-3 bg-white w-full">
 <form className=" px-8 pt-6 pb-8" action="#">
@@ -26,9 +26,9 @@ const Signup=()=>{
         
         <div className="md:w-2/3 w-full">
         <input type="email" id="email" class="shadow-sm mt-5 bg-white border border-gray-300 text-gray-900 text-base rounded-l focus:ring-blue-400 focus:border-blue-400 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Enter your Email" required/>
-        <div className="flex gap-3">
-        <input type="password"  id="password" class="shadow-sm mt-5  bg-white border border-gray-300 text-gray-900 text-base rounded-l focus:ring-blue-400 focus:border-blue-400 block w-1/2  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Enter your password" required/>
-        <input type="password"  id="password" class="shadow-sm mt-5  bg-white border border-gray-300 text-gray-900 text-base rounded-l focus:ring-blue-400 focus:border-blue-400 block w-1/2  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Confirm password" required/>
+        <div className="sm:flex gap-3">
+        <input type="password"  id="password" class="shadow-sm mt-5  bg-white border border-gray-300 text-gray-900 text-base rounded-l focus:ring-blue-400 focus:border-blue-400 block w-full sm:w-1/2  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Enter your password" required/>
+        <input type="password"  id="password" class="shadow-sm mt-5  bg-white border border-gray-300 text-gray-900 text-base rounded-l focus:ring-blue-400 focus:border-blue-400 block w-full sm:w-1/2  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Confirm password" required/>
         
 
         </div>
@@ -97,10 +97,10 @@ const Signup=()=>{
 <div className="w-full border-b pb-5 pt-5 md:flex">
 <div className="w-full md:w-1/3">
         
-        <label className="text-xl" htmlFor="">Where do you live?</label>
+        <label className="text-xl" htmlFor="">Where are you from?</label>
             </div>
             <div className="w-full md:w-2/3">
-            <select id="title" class="bg-white border border-gray-300 text-gray-900 text-base rounded-l focus:ring-blue-500 focus:border-blue-400 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <select required id="title" class="bg-white border border-gray-300 text-gray-900 text-base rounded-l focus:ring-blue-500 focus:border-blue-400 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
             <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
                 <option value="Albania">Albania</option>
@@ -361,7 +361,7 @@ const Signup=()=>{
 <div class="flex">
   <div>
     <div class="form-check flex w-full">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault"/>
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" required value="" id="flexCheckDefault"/>
       <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
       I agree to the Terms and Conditions and accept the Trip Airways Privacy Policy.
       </label>

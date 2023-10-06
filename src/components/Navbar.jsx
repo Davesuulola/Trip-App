@@ -10,8 +10,8 @@ let [open, setOpen] = useState(false)
     <>
       <div className="shadow-md w-full fixed top-0 left-0">
         <div className="md:flex items-center justify-between bg-white py-4 md:px-16 px-7">
-          <div className="cursor-pointer flex items-center">
-            <img src={Logo} className="w-20 pt-2 mr-1" alt="" />
+          <div className="cursor-pointer  flex items-center">
+            <img src={Logo} className="w-20  pt-2 mr-1" alt="" />
           </div>
           <div onClick={()=>setOpen(!open)} className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
           <ion-icon name={open ? 'close':'menu'}></ion-icon>

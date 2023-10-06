@@ -47,7 +47,7 @@ const Home=()=>{
     
     </div>
 
-<Book/>
+{/* <Book/> */}
 
 <div className="container my-12 mx-auto px-4 md:px-10">
     <div className="w-full text-center">
@@ -84,10 +84,10 @@ const Home=()=>{
 
 <input type="text"  id="password" class="shadow-sm mt-5  bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-5/6  sm:w-1/2  md:w-2/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="email" required/>
 
-<input type="text"  id="password" class="shadow-sm mt-5  bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-5/6 sm:w-1/2  md:w-2/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Phone number" required/>
+<input type="number"  id="password" class="shadow-sm mt-5  bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-5/6 sm:w-1/2  md:w-2/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Phone number" required/>
 
 </div>
-<button type="submit" class="text-white sm:w-1/4 w-5/6 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subscribe</button>
+<button type="submit" class="text-white sm:w-1/4 w-5/6 bg-blue-700 hover:bg-blue-800 transition-all duration-75 ease-in focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subscribe</button>
 </form>
 </div>
 
@@ -114,7 +114,8 @@ const Home=()=>{
 <h1 className="md:text-4xl text-white font-bold  sm:text-3xl text-2xl ">Get in Touch</h1>   
 <p className="py-3 text-white font-light">Trip International Airport | gbengasuulola05@gmail.com</p>
 
-<button  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><span><ion-icon  name="chatbox-ellipses"></ion-icon></span> Feedback</button>
+<button  class="text-white bg-blue-700 hover:bg-blue-800 transition-all duration-75 ease-in  focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> Feedback</button>
+{/* <span><ion-icon  name="chatbox-ellipses"></ion-icon></span> */}
     
     </div>
 
